@@ -1754,12 +1754,11 @@ p.para {
 }
 
 .inner-agile-w3l-part-head {
-    text-align: center;
+/*    text-align: center;*/
     margin-bottom: 2em;
 }
 
 h3.w3l-inner-h-title {
-    text-align: center;
     color: #0c0d0d;
     font-size: 2.5em;
     letter-spacing: 1px;
@@ -3604,7 +3603,7 @@ ul.bottom-links-agile li a {
         font-size: 2.5em;
     }
     .inner-agile-w3l-part-head {
-        text-align: center;
+/*        text-align: center;*/
         margin-bottom: 1.3em;
     }
     #play,
@@ -3853,6 +3852,11 @@ ul.bottom-links-agile li a {
     margin: 0px;
 }
 
+.nav-stacked {
+    margin-left: 5px;
+    padding: 0 2em;
+}
+
 .panel .a {
     color: black;
 }
@@ -3868,11 +3872,20 @@ ul.bottom-links-agile li a {
 
 .panel .panel-body {
     padding: 0px;
+    padding-bottom: 0px;
+}
+
+.panel .list-group {
+    padding-bottom: 0px;
 }
 
 .panel .list-group .list-group-item {
     color: #02a388;
     margin: 0px;
+}
+
+#sidebar-1 {
+    padding-left: 10px;
 }
 
 
